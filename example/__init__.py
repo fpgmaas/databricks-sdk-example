@@ -1,4 +1,4 @@
-from databricks.sdk.service.jobs import BaseJob
+from databricks.sdk import WorkspaceClient
 
 def foo():
     return "bar"
