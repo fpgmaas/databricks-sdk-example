@@ -1,4 +1,4 @@
-from databricks.sdk.services import JobsAPI
+from databricks.sdk.service.jobs import BaseJob
 
 def foo():
     return "bar"
