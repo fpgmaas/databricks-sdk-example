@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  tests-and-type-check:
+  tests:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -28,4 +28,3 @@ jobs:
 
       - name: Run tests
         run: poetry run pytest tests
-        
